@@ -1,4 +1,4 @@
-int coundDevices(char* bankRow){
+int countDevices(char* bankRow){
     int result = 0;
     int bankRowSize = strlen(bankRow);
     for(int i = 0; i < bankRowSize; i++){
@@ -17,7 +17,7 @@ int numberOfBeams(char ** bank, int bankSize){
     int prevRowDevices = 0;
     int result = 0;
     for(int i = 0; i < bankSize; i++){
-        int devices = coundDevices(bank[i]);
+        int devices = countDevices(bank[i]);
         if (devices == 0){
             continue;
         }
