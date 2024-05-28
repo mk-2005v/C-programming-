@@ -35,6 +35,25 @@ void postOrderTraversal(struct node *node)
     printf("\t%d\t", node->data);
 }
 
+void printLevelOrder(struct node *node) {
+       enque(node);
+       while (!isEmpty()) {
+           struct node* tempNode = deque();
+           printf("\t%d\t", tempNode->data);
+
+           /*add left child to the queue */
+           if (tempNode->left != NULL) {
+               enque(tempNode->left);
+           }
+
+           /*add right right child to the queue */
+           if (tempNode->right != NULL) {
+               enque(tempNode->right);
+           }
+       }
+   }
+
+
 int main(void)
 {
     /* traversals can be done by simply invoking the
