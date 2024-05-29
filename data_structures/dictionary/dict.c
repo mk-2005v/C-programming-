@@ -51,7 +51,7 @@ int add_item_label(Dictionary *dic, char label[], void *item)
     unsigned int index = get_hash(label);
 
     /* make sure index is fitting */
-    if (index < MAXELEMENTS)
+    if (index < MAXELEMENTS && dic->elements[index] == NULL)
     {
         dic->elements[index] = item;
         return 0;
