@@ -7,7 +7,7 @@
 /*Displays the array, passed to this method*/
 void display(int *arr, int n)
 {
-
+    //added comment here
 
     int i;
     for (i = 0; i < n; i++)
@@ -79,5 +79,5 @@ int main(int argc, const char *argv[])
     free(arr);
     return 0;
 
-    
+
 }
