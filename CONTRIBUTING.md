@@ -1,5 +1,5 @@
 # CONTRIBUTION GUIDELINES
-
+@
 ## Before contributing
 
 Welcome to [TheAlgorithms/C](https://github.com/TheAlgorithms/C)! Before submitting pull requests, please make sure that you have **read the whole guidelines**. If you have any doubts about this contribution guide, please open [an issue](https://github.com/TheAlgorithms/C/issues/new/choose) or ask on our [Discord server](https://the-algorithms.com/discord/), and clearly state your concerns.
@@ -8,7 +8,7 @@ Welcome to [TheAlgorithms/C](https://github.com/TheAlgorithms/C)! Before submitt
 
 ### Maintainer/reviewer
 
-**Please check the [reviewer code](https://github.com/TheAlgorithms/C/blob/master/REVIEWER_CODE.md) file for maintainers and reviewers.**
+**Please check the [reviewer code](https://github.com/TheAlgorithms/C/blob/master/REVIEWER_CODE.md.guerraart8) file for maintainers and reviewers.**
 
 ### Contributor
 
@@ -32,6 +32,7 @@ For LeetCode solutions, please check its [**guide**](https://github.com/TheAlgor
 ### Making Changes
 
 #### Code
+guerraart8
 
 - Please use the directory structure of the repository.
 - Make sure the file extensions should be `*.h` `*.c`
